@@ -22,6 +22,13 @@ A custom 16-bit CPU built from the ground up using basic logic gates, inside a s
 - **AC** (Accumulator): Active register for performing operations
 - **DR** (Data Register): Accepts read data word from Main Memory
 
+### Instruction Format
+<img width="400" height="65" alt="image" src="https://github.com/user-attachments/assets/61da5989-b4e4-4e2a-adc2-800ddd52d59c" />
+
+ - **I** : Indirect Bit for Indirect memory Access
+ - **op-code** : 3 Bit Operation Code
+ - **Address** : Address of operand / Extended op-code for zero-address instructions
+
 ### Instruction Cycle
 - **Fetch** Instruction from memory and increment PC
 - **Decode** Instruction
