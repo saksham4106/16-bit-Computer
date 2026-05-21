@@ -1,0 +1,33 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "16x16RAM",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 1.325,
+    "y": 0.375
+  },
+  "Colour": {
+    "r": 0.73811996,
+    "g": 0.7346179,
+    "b": 0.231994048,
+    "a": 1
+  },
+  "InputPins":[],
+  "OutputPins":[],
+  "SubChips":[
+    {
+      "Name":"1-4BIT",
+      "ID":262416493,
+      "Label":"",
+      "Position":{
+        "x":-7.1775,
+        "y":-1.125
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":4}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[],
+  "Displays": null
+}
